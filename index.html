@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --primary: rgb(232, 160, 84);
+        --secoudary: white;
+        --border: black;
+      }
+      .Cointainer {
+        border: 2px solid var(--primary);
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 3fr;
+      }
+      .BoxA,
+      .BoxB {
+        box-sizing: border box;
+        border: 2px solid var(--border);
+      }
+      .BoxA {
+        background-color: var(--primary);
+        display: flex;
+        flex-direction: column;
+        row-gap: 2%;
+        border: none;
+      }
+     .BoxB{
+      padding-left: 1%;
+      border: none
+     }
+
+      a {
+        margin-left: 5%;
+      }
+      .BoxD1 {
+        display: flex;
+        flex-direction: row;
+        row-gap: 2%;
+      }
+      .one, .two, .three, .four{
+        width: 20%;
+        height: 30%;
+
+      }
+      .Data{
+        display: flex;
+        flex-direction: column;
+        
+      }
+     .Feed{
+      display: flex;
+      flex-direction: column;
+     }
+      
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="Cointainer">
+      <div class="BoxA">
+        <img class="Logo" src="./logo.png" width="30%" />
+        <h3 style="font-size: 30px; margin-left: 2%">Melodies</h3>
+        <a href="">Welcome</a>
+        <a href="">About Us</a>
+        <a href="">Veg</a>
+        <a href="">Non-Veg</a>
+        <a href="">Drinks</a>
+        <a href="">Contact Us</a>
+      </div>
+      <div class="BoxB">
+        <div class="BoxC">
+          <img src="./Foods.webp" />
+        </div>
+        <br />
+        <div class="BoxD">
+          <h4>Welcome to Middle Class Melodies</h4>
+          <details>
+            <summary>click here</summary>
+            <p style="text-align: justify">
+              
+              simple, Dont just dream about it, order it. Cheers to beginnings,
+              bites, and bondings. An extraordinary dining experience is now
+              just a visit away.Let us server you place your order. Satisfy your
+              hunger with the tap of a button. order now
+            </p>
+          </details>
+        </div>
+        <br />
+        <div class="BoxD1">
+          <img src="./Berger.jpeg" />
+
+          <div class="BoxD2">
+            <details>
+              <summary><b>About Us</b></summary>
+
+              <p style="text-align: justify">
+            
+              
+              </p>
+              <br /><button>Learn More</button>
+            </details>
+          </div>
+        </div>
+        <br />
+
+        <div class="BoxE">
+          <div class="Veg">
+            <h3>Veg</h3>
+            <br />
+            <img src="./Foods.webp" width="18.5%" />
+            <img src="./Foods.webp" width="18.5%" />
+            <img src="./Foods.webp" width="18.5%" />
+            <img src="./Foods.webp" width="18.5%" />
+            <img src="./Foods.webp" width="18.5%" />
+          </div>
+          <br />
+          <div class="Nonveg">
+            <h3>Nonveg</h3>
+            <br />
+            <img src="./Berger.jpeg" width="30%" height="10%" />
+            <img src="./Berger.jpeg" width="30%" height="10%" />
+            <img src="./Berger.jpeg" width="30%" height="10%" />
+          </div>
+        </div>
+        <br />
+        <div class="BoxF">
+          <div class="BoxF1">
+            <h3>Drinks</h3>
+            <br />
+            <img src="./Foods.webp" width="23%" />
+            <img src="./Foods.webp" width="23%" />
+            <img src="./Foods.webp" width="23%" />
+            <img src="./Foods.webp" width="23%" />
+          </div>
+          <br />
+          <h3>Contact Us</h3>
+          <div class="Contact">
+            <div class="Data">
+           
+              <input class="one"
+                type="text"
+                name="customer"
+                id="data"
+                placeholder="Name"
+                width="30%"
+              />
+              <input class="two"
+                type="email"
+                name="customer"
+                id="email"
+                placeholder="email"
+              />
+              <textarea class="three"
+                name="customer"
+                id="feedback"
+                placeholder="Feedback"
+              ></textarea>
+              <input type="submit" class="four" value="submit"/><br>
+
+              <div class="Feed">
+                <!-- <details>
+                  <Summary>Feed</Summary> -->
+               
+                <p>  Good food is the Foundation of gunine Hapiness. What ever
+                  happens in your life have a snack. Our aim is to offer simple,
+                  fresh, good food. Nothing brings people together like good
+                  food.Food is not just fuel, it's an experience. Life is too
+                  short to skip dessert.Elevate your dining experience with us.
+                  Elevate your order with a mouthwatering order. Skip the line,
+  
+                </p>
+              <!-- </details> -->
+              </div>
+             
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
