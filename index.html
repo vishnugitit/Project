@@ -3,191 +3,139 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website</title>
-
+    <title>Neaty</title>
     <style>
+      :root {
+        --primary: blue;
+        --secoundary: black;
+        --bright: navy;
+      }
       * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        background-color: bisque;
+        font-family: sans-serif;
       }
-      :root {
-        --primary: rgb(232, 160, 84);
-        --secoudary: white;
-        --border: black;
-      }
-      .Cointainer {
-        border: 2px solid var(--primary);
-        display: grid;
+     
+   
+       .BlockG {
+        border: 2px solid black;
         height: 100vh;
-        grid-template-columns: 1fr 3fr;
-        grid-template-rows: 1fr 3fr;
       }
-      .BoxA,
-      .BoxB {
-        box-sizing: border box;
-        border: 2px solid var(--border);
+      .Nav {
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 2% 2%;
+        margin-top: 2%;
+        margin-left: 3%;
       }
-      .BoxA {
-        background-color: var(--primary);
+
+      .Block1A{
+        display: flex;
+      }
+      .BlockC{
         display: flex;
         flex-direction: column;
-        row-gap: 2%;
-        border: none;
       }
-     .BoxB{
-      padding-left: 1%;
-      border: none
-     }
-
-      a {
-        margin-left: 5%;
-      }
-      .BoxD1 {
-        display: flex;
-        flex-direction: row;
-        row-gap: 2%;
-      }
-      .one, .two, .three, .four{
-        width: 20%;
-        height: 30%;
-
-      }
-      .Data{
+      .BlockD{
         display: flex;
         flex-direction: column;
-        
+       
       }
-     .Feed{
-      display: flex;
-      flex-direction: column;
-     }
-      
-      
+      .BlockE{
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .Contact{
+        display: flex;
+        flex-direction: column;
+      }
+      .Cointainer{
+        overflow-y:scroll ;
+      }
+      @media screen and (min-width: 320px) and (max-width: ){
+
+      }
+       
       
     </style>
   </head>
   <body>
     <div class="Cointainer">
-      <div class="BoxA">
-        <img class="Logo" src="./logo.png" width="30%" />
-        <h3 style="font-size: 30px; margin-left: 2%">Melodies</h3>
+      <div class="Nav">
+        <img src="./logo.png" width="4%" height="10%" />
+
+        <h1>Neaty</h1>
         <a href="">Welcome</a>
         <a href="">About Us</a>
-        <a href="">Veg</a>
-        <a href="">Non-Veg</a>
-        <a href="">Drinks</a>
+        <a href="">Gallery One</a>
+        <a href="">Second Gallery</a>
+        <a href="">Third Gallery</a>
         <a href="">Contact Us</a>
       </div>
-      <div class="BoxB">
-        <div class="BoxC">
-          <img src="./Foods.webp" />
-        </div>
-        <br />
-        <div class="BoxD">
-          <h4>Welcome to Middle Class Melodies</h4>
-          <details>
-            <summary>click here</summary>
-            <p style="text-align: justify">
-              
-              simple, Dont just dream about it, order it. Cheers to beginnings,
-              bites, and bondings. An extraordinary dining experience is now
-              just a visit away.Let us server you place your order. Satisfy your
-              hunger with the tap of a button. order now
-            </p>
-          </details>
-        </div>
-        <br />
-        <div class="BoxD1">
-          <img src="./Berger.jpeg" />
+      <div class="BlockA">
+        <img src="./neaty1.jpg" width="100%" height="100%" />
+      </div>
+      <div class="BlockB">
+        <h1>Welcome to Neaty Kitchen</h1>
+        <p style="text-align: justify">
+          Good food is the Foundation of gunine Hapiness. What ever happens in
+          your life have a snack. Food is not just fuel, it's an experience.
+          Life is too short to skip dessert.Elevate your dining experience with
+          us. Skip the line, order online, its that simple, Dont just dream
+          about it, order it.
+        </p>
 
-          <div class="BoxD2">
-            <details>
-              <summary><b>About Us</b></summary>
-
-              <p style="text-align: justify">
-            
-              
-              </p>
-              <br /><button>Learn More</button>
-            </details>
-          </div>
+       <div class="BlockC">
+        <img src="./neaty2.jpg" widht="100%" height="100%">
+        <div class="BlockC1">
+          <h1>About the team</h1>
+          <p style="text-align: justify;"> Our aim is to offer simple, fresh, good food. Nothing brings
+            people together like good food. Elevate your order with a
+            mouthwatering order. Cheers to beginnings, bites, and bondings.</p><br>
+            <button style="background-color: blue; color:azure">Learn More</button>
         </div>
-        <br />
+       </div>
+      <div class="BlockD">
+        <h1>Gallery One</h1>
+        <img src="./neaty3.jpg" height="100%" width="100%"><br>
+        <img src="./neaty4.jpg" height="100%" width="100%"><br>
+        <img src="./neaty5.jpg" height="100%" width="100%"><br>
+        <img src="./neaty6.jpg" height="100%" width="100%"><br>
+        <img src="./neaty7.jpg" height="100%" width="100%"><br>
+      </div>
 
-        <div class="BoxE">
-          <div class="Veg">
-            <h3>Veg</h3>
-            <br />
-            <img src="./Foods.webp" width="18.5%" />
-            <img src="./Foods.webp" width="18.5%" />
-            <img src="./Foods.webp" width="18.5%" />
-            <img src="./Foods.webp" width="18.5%" />
-            <img src="./Foods.webp" width="18.5%" />
-          </div>
-          <br />
-          <div class="Nonveg">
-            <h3>Nonveg</h3>
-            <br />
-            <img src="./Berger.jpeg" width="30%" height="10%" />
-            <img src="./Berger.jpeg" width="30%" height="10%" />
-            <img src="./Berger.jpeg" width="30%" height="10%" />
-          </div>
-        </div>
-        <br />
-        <div class="BoxF">
-          <div class="BoxF1">
-            <h3>Drinks</h3>
-            <br />
-            <img src="./Foods.webp" width="23%" />
-            <img src="./Foods.webp" width="23%" />
-            <img src="./Foods.webp" width="23%" />
-            <img src="./Foods.webp" width="23%" />
-          </div>
-          <br />
-          <h3>Contact Us</h3>
-          <div class="Contact">
-            <div class="Data">
-           
-              <input class="one"
-                type="text"
-                name="customer"
-                id="data"
-                placeholder="Name"
-                width="30%"
-              />
-              <input class="two"
-                type="email"
-                name="customer"
-                id="email"
-                placeholder="email"
-              />
-              <textarea class="three"
-                name="customer"
-                id="feedback"
-                placeholder="Feedback"
-              ></textarea>
-              <input type="submit" class="four" value="submit"/><br>
+      <div class="BlockE">
+        <h1>Second Gallery</h1>
+        <img src="./neaty8.jpg" width="100%" height="100%"><br>
+        <img src="./neaty9.jpg" width="100%" height="100%"><br>
+        <img src="./neaty10.jpg"width="100%" height="100%"><br>
+      </div>
 
-              <div class="Feed">
-                <!-- <details>
-                  <Summary>Feed</Summary> -->
-               
-                <p>  Good food is the Foundation of gunine Hapiness. What ever
-                  happens in your life have a snack. Our aim is to offer simple,
-                  fresh, good food. Nothing brings people together like good
-                  food.Food is not just fuel, it's an experience. Life is too
-                  short to skip dessert.Elevate your dining experience with us.
-                  Elevate your order with a mouthwatering order. Skip the line,
-  
-                </p>
-              <!-- </details> -->
-              </div>
-             
-            </div>
-           
-          </div>
-        </div>
+     <div class="BlockF">
+      <h1>Third Gallery</h1>
+      <img src="./neaty11.jpg"width="100%" height="100%"><br>
+      <img src="./neaty12.jpg"width="100%" height="100%"><br>
+      <img src="./neaty13.jpg"width="100%" height="100%"><br>
+      <img src="./neaty14.jpg"width="100%" height="100%"><br>
+     </div>
+     <div class="Contact">
+      <h1>Contact US</h1>
+      <input type="text" id="name" name="Customer" placeholder="Name"><br>
+      <input type="email" id="mail" name="id" placeholder="email"><br>
+      <textarea name="text" id="feedback" placeholder="Message"></textarea><br>
+      <button style="background-color: blue; color: white">Send</button><br>
+      <div class="Order">
+        <p style="text-align: justify;"> An extraordinary
+          dining experience is now just a visit away.Let us server you
+          place your order. Satisfy your hunger with the tap of a button.
+          order now.</p>
+      </div>
+     </div>
+
       </div>
     </div>
   </body>
