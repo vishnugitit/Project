@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neaty</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
       :root{
         --primary: white;
@@ -14,178 +15,305 @@
         margin: 0;
         box-sizing: border-box;
         background-color: var(white);
-        
         font-family: normal verdana;
       }
-      @media screen and (min-width: 320px) and (max-width: 592px){
-        .Nav{
-          background-color: var(--secoundary);
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          position: sticky;
-          top: 0%;
-      
-        }
-        .logo{
-        padding-top: 5%;
-        }
-        .brand{
-          padding-bottom: 5%;
-          color: var(--primary)
-        }
-        .welcome{
-         color: var(--secoundary);
-         padding: 5%;
-        }
-        .team{
-          color: var(--secoundary);
-         padding: 5%;
-        }
-        .welcome1, .team1, .team2, .team3{
-          padding:  2% 5% 2% 5%;
-        }
-        .btn{
-          color: var(--primary);
-          background-color: var(--secoundary);
-          border: none;
-          padding: 5%;
-          margin: 5%;
-        }
-        .BlockC1{
-          display: flex;
-          flex-direction: column;
-        }
-        #drinks{
-          width: 100%;
-          height: 50%;
-          padding: 5%;
-        }
-        .one{
-          color: var(--secoundary);
-          padding: 5%;
-        }
-        .one1{
-          width: 50%;
-          height: 50%;  
-        }
+      @media screen and (min-width: 320px) and (max-width: 592px) {
+ 
+  /*Navbar*/
 
-         .phase1{
-          display: flex;
-          justify-content: space-evenly;
-          gap: 2%;
-          padding: 2% 5% 2% 5%;
-         }
-         .phase2{
-          display: flex;
-          justify-content: space-evenly;
-          gap: 2%;
-          padding: 2% 5% 2% 5%;
-         }
-         .phase3{
-          display: flex;
-          justify-content: flex-start;
-         padding: 2% 5% 2% 5%;
-         }
-       
-        .second{
-          color: var(--secoundary);
-          padding: 5%;
-        }
-        .second2{
-          width: 50%;
-          height: 50%;
-        }
-        .phase4{
-          display: flex;
-          justify-content: space-evenly;
-          gap: 2%;
-          padding: 2% 5% 2% 5%;
-        }
-        .phase5{
-          display: flex;
-          justify-content: flex-start;
-          padding: 2% 5% 2% 5%;
-        }
+  .Nav {
+    background-color: var(--secoundary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    padding: 0%;
+  }
+  /*logo*/
 
-        .third{
-          color: var(--secoundary);
-          padding: 2% 5% 2% 5%;
-        }
-        .third3{
-          width: 50%;
-          height: 50%;
-        }
-        .phase6{
-          display: flex;
-          justify-content: space-evenly;
-          gap: 2%;
-          padding: 2% 5% 2% 5%;
-        }
-        .phase7{
-          display: flex;
-          justify-content: flex-start;
-          padding: 2% 5% 2% 5%;
-        }
-        .contact{
-          color: var(--secoundary);
-          padding: 2% 5% 2% 5%;
-        }
-        form{
-          display: flex;
-          flex-direction: column;
-          padding: 2% 5% 2% 5%;
-        }
-        input, textarea, button{
-          padding: 2% 5% 2% 5%;
-          margin-top: 5%;
-        }
-        .btn1{
-         background-color: var(--secoundary);
-         color: var(--primary);
-          width: 30%;
-          padding: 5%;
-          border: none;
-        }
-        .Order{
-          display: flex;
-          flex-direction: column;
-        }
-        .order1,.order2{
-          padding: 2% 5% 2% 5%;
-        }
+  .logo {
+    padding-top: 5%;
+  }
+  /*brandname*/
 
-        #copyright{
-          display: flex;
-          flex-direction: column;
-         padding: 2% 5% 2% 5%;
-        }
-        .copy{
-          margin: 2%;
-        }
-        
-      }
+  .brand {
+    padding-bottom: 5%;
+    color: var(--primary);
+  }
+
+  /*Menu*/
+  .Icon {
+    /* position: fixed; */
+    /* left: 70%; */
+    position: fixed;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+  }
+
+  /*BlockA*/
+
+  #BlockA {
+    display: flex;
+  }
+  /*icecream*/
+
+  .Ice {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+  }
+  /*BlockB*/
+
+  #BlockB {
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*welcome to neaty design*/
+
+  /* #welcome1{
+
+  } */
+
+  /*neaty data*/
+  #welcome2 {
+    margin-bottom: 5%;
+  }
+
+  /*BlockC*/
+  /*About team*/
+  .team {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+
+  /*team data*/
+  .team1,
+  .team2,
+  .team3 {
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*Readm more*/
+  .btn {
+    color: var(--primary);
+    background-color: var(--secoundary);
+    border: none;
+    padding: 5%;
+    margin: 5%;
+  }
+  .BlockC1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*coool drinks*/
+  #drinks {
+    width: 100%;
+    height: 50%;
+    padding: 5%;
+  }
+  /*BlockD*/
+
+  /*Gallery one*/
+  .one {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+  /*gallery one images*/
+  .one1 {
+    width: 50%;
+    height: 50%;
+  }
+  /* 2/2  */
+  .phase1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+  /* 2/2  */
+  .phase2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+  /* 1/1 */
+  .phase3 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+  }
+
+  /*BlockE*/
+
+  /*Second gallery*/
+
+  .second {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+  /* Second gallery images*/
+
+  .second2 {
+    width: 50%;
+    height: 50%;
+  }
+
+  /* 2/2  */
+  .phase4 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /* 1/1 */
+  .phase5 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+  }
+
+  /*BlockF*/
+
+  /*Third Gallery*/
+  .third {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+
+  /*Third Gallery images*/
+  .third3 {
+    width: 50%;
+    height: 50%;
+  }
+
+  /*2/2*/
+  .phase6 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /*  2/2 */
+  .phase7 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /*Contact*/
+  .contact {
+    color: var(--secoundary);
+    padding: 2% 5% 2% 5%;
+  }
+
+  /* forms*/
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*name, email, message*/
+  input,
+  textarea,
+  button {
+    padding: 2% 5% 2% 5%;
+    margin-top: 5%;
+  }
+
+  /*send*/
+  .btn1 {
+    background-color: var(--secoundary);
+    color: var(--primary);
+    width: 30%;
+    padding: 5%;
+    border: none;
+  }
+  /*address*/
+  .Order {
+    display: flex;
+    flex-direction: column;
+  }
+  /*address data*/
+  .order1,
+  .order2 {
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*copyright*/
+
+  #copyright {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+  }
+  /*copyright content*/
+  .copy {
+    margin: 2%;
+  }
+
+  #BlockB:target {
+    background-color: bisque;
+  }
+  #BlockC:target {
+    background-color: chocolate;
+  }
+  #BlockD:target {
+    background-color: blueviolet;
+  }
+  #BlockE:target {
+    background-color: cornflowerblue;
+  }
+  #BlockF:target {
+    background-color: coral;
+  }
+  #Contact:target {
+    background-color: aqua;
+  }
+}
+
+     
+    
     </style>
   </head>
   <body>
     <div class="Cointainer">
+     <div class="Header">
       <div class="Nav">
         <img class="logo" src="./logo.png" />
-
         <h1 class="brand">Neaty</h1>
-        <a class="Stick" href="#BlockB">Welcome</a>
-        <a class="Stick" href="#BlockC">About Us</a>
-        <a class="Stick" href="#BlockD">Gallery One</a>
-        <a class="Stick" href="#BlockE">Second Gallery</a>
-        <a class="Stick" href="#BlockF">Third Gallery</a>
-        <a class="Stick" href="#Contact">Contact Us</a>
+        <div class="Icon">
+          <!-- <details class="data"> -->
+            <!-- <summary class="date">Home </summary> -->
+        <a class="Reference" href="#BlockB">Welcome</a>
+        <a class="Reference" href="#BlockC">About Us</a>
+        <a class="Reference" href="#BlockD">Gallery One</a>
+        <a class="Reference" href="#BlockE">Second Gallery</a>
+        <a class="Reference" href="#BlockF">Third Gallery</a>
+        <a class="Reference" href="#Contact">Contact Us</a>
+      <!-- </details> -->
+      </div> 
       </div>
-      <div class="BlockA">
-        <img class="Ice" src="./neaty1.jpg" width="100%" height="100%" />
+    </div>
+    <div class="Aside">
+      <div id="BlockA">
+        <img class="Ice" src="./neaty1.jpg"/>
       </div>
+      
       <div id="BlockB">
-        <h1 class="welcome">Welcome to Neaty Design</h1>
-        <p  class="welcome1" style="text-align: justify">
+        <h1 id="welcome2">Welcome to Neaty Design</h1>
+        <p id="welcome1" style="text-align: justify">
           Neaty is simple and clean design HTML CSS template for any kind of
           website. Feel free to use this layout. Please tell your friends about
           templatemo website. Thank you. Suspendisse imperdiet, felis eu
@@ -195,23 +323,33 @@
           finibus. Etiam luctus nec eros vel pulvinar.
         </p>
       </div>
+     
       <div id="BlockC">
-        <h1 class="team">About the team</h1>
+        <img id="drinks" src="./neaty2.jpg" />
+        <!-- <h1 class="team">About the team</h1>
         <p  class="team1" style="text-align: justify">
           Sed turpis nunc, laoreet sit amet fermentum sed, euismod ac justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
         </p>
         <p class="team2" style="text-align: justify">Donec ut lectus semper, sollicitudin risus blandit, mattis felis. Nam non malesuada odio. Vestibulum vaius, arcu eget rutrum consequat, arcu lacus imperdiet arcu, id pulvinar arcu erat vel magna.</p>
       
         <p class="team3" style="text-align: justify">Ut commodo malesuada eros, quis consequat ante tincidunt ut. Suspendisse malesuada augue vitae nisi sollicitudin placerat.</p>
-        <button class="btn">Read More</button>
+        <button class="btn"><a style="text-decoration: none;color: white"href="https://youtu.be/cH0ea2k1lug?si=wvXrtDOyHSt_a8bt">Read More</a></button> -->
 
         <div class="BlockC1">
-          <img id="drinks" src="./neaty2.jpg" />
+          <h1 class="team">About the team</h1>
+          <p  class="team1" style="text-align: justify">
+            Sed turpis nunc, laoreet sit amet fermentum sed, euismod ac justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+          <p class="team2" style="text-align: justify">Donec ut lectus semper, sollicitudin risus blandit, mattis felis. Nam non malesuada odio. Vestibulum vaius, arcu eget rutrum consequat, arcu lacus imperdiet arcu, id pulvinar arcu erat vel magna.</p>
+        
+          <p class="team3" style="text-align: justify">Ut commodo malesuada eros, quis consequat ante tincidunt ut. Suspendisse malesuada augue vitae nisi sollicitudin placerat.</p>
+          <button class="btn"><a style="text-decoration: none;color: white"href="https://youtu.be/cH0ea2k1lug?si=wvXrtDOyHSt_a8bt">Read More</a></button>
+          <!-- <img id="drinks" src="./neaty2.jpg" /> -->
         </div>
       </div>
-
+      <h1 class="one">Gallery One</h1>
       <div id="BlockD">
-        <h1 class="one">Gallery One</h1>
+       
         <div class="phase1">
         <img class="one1" src="./neaty3.jpg"/>
         <img class="one1" src="./neaty4.jpg"/>
@@ -224,8 +362,9 @@
         <img class="one1" src="./neaty7.jpg"/><br />
       </div>
       </div>
+      <h1 class="second">Second Gallery</h1>
       <div id="BlockE">
-        <h1 class="second">Second Gallery</h1>
+   
         <div class="phase4">
         <img class="second2" src="./neaty8.jpg"  />
         <img class="second2" src="./neaty9.jpg"/>
@@ -234,8 +373,9 @@
         <img class="second2" src="./neaty10.jpg"  />
       </div>
       </div>
-      <div id="BlockF">
         <h1 class="third">Third Gallery</h1>
+      <div id="BlockF">
+      
         <div class="phase6">
         <img class="third3" src="./neaty11.jpg"/>
         <img class="third3" src="./neaty12.jpg"/>
@@ -245,8 +385,10 @@
         <img class="third3" src="./neaty14.jpg"/>
       </div>
       </div>
+      <h1 class="contact">Contact US</h1>
       <div id="Contact">
-        <h1 class="contact">Contact US</h1>
+        <div class="Feed">
+       
         <form>
         <input
           type="text"
@@ -261,6 +403,7 @@
         <button class="btn1">Send</button
         >
       </form>
+    </div>
         <div class="Order">
             <p class="order1" style="text-align: justify">
               Nullam vivera fermentum purus id blandit. Phasellus lacus mi, porta vel sodales nec, faucibus non eros. Nulla at quam vel risus laoreet tincidunt in in sem.
@@ -269,10 +412,13 @@
               11/22 Etiam mauris erat, Vestibulum eu augue nec, 10220 Nam consequat  
             </p>
           </div>
-          <div id="copyright">
-            <p class="copy">Copyright © 2024 Your Company |</p>
-            <p class="copy">Design: <span style="color: var(--secoundary)">templademo</span></p>
-          </div>
+         
+        </div>
+        <div id="copyright">
+          <p class="copy">Copyright © 2024 Your Company |</p>
+          <p class="copy">Design: <span style="color: var(--secoundary)">templademo</span></p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
