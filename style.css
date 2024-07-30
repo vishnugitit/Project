@@ -1,339 +1,179 @@
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+ @media screen and (min-width: 812px) and (max-width: 1024px )
+{ 
+
 .Cointainer{
   display: grid;
-  grid-template-columns:1fr 3fr;
+  grid-template-columns: 1fr 3fr;
+ 
 }
 .Header{
-   /* position: fixed; */
-  top: 0%; 
-  background-color: var(--secoundary);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
- align-content: space-evenly;
- align-items: center;
+  background-color: burlywood;
+ position: fixed;
+ top: 0%;
+ height: 100%;
+ width: 30%;
+  
 }
-.logo {
-width: 40%;
-  height: 15%; 
-  margin-top: 40%;
- margin-left: 20%;
+.Nav{
+ background-color: chartreuse;
+ margin: 5%;
 }
-/*brandname*/
-
-.brand {
- padding-left: 20%;
-  margin-top: 10%;
- font-size: 350%;
-  color: var(--primary);
-
+.logo{
+margin: 5%;
+width: 30%;
+height: 20%;
+margin-left: 30%;
 }
+.brand{
+  margin: 2%;
+  font-size: 550%;
+  padding-left: 30%;
+}
+.Icon{
 
-/*Menu*/
-.Icon {
-  font-size: 300%;
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
+background-color: cornflowerblue;
+align-items: center;
 }
 .Reference{
-margin-top:30%;
-padding: 0% 10% 0% 10%;
-color:  var(--primary);
-text-decoration: none;
+  font-size: 650%;
+  margin:10%;
+  text-align: justify;
 }
+
 .Aside{
-display: flex;
-flex-direction: column;
-}
-#BlockA {
-  display: flex;
-  flex-direction: column;
- 
-}
-/*icecream*/
-
-.Ice {
+  /* background-color: brown;  */
+  margin-left: 45%;
   width: 100%;
-  height: 100%;
-  /* margin-left: 30%; */
-}
-#BlockB {
-  /* margin-left: 30%; */
-  padding: 2% 5% 2% 5%;
   
- 
   
 }
-
-/*welcome to neaty design*/
-
+/*BlockB*/
+#welcome2{
+  font-size: 500%;
+  display: flex;
+}
 #welcome1{
-/* margin-left: 30%; */
-font-size: 400%;
-
+  font-size: 350%;
 }
-
-/*neaty data*/
-#welcome2 {
-  margin-bottom: 5%;
-  font
-  /* margin-left: 30%; */
-}
-
-/*BlockC*/
-/*About team*/
 #BlockC{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  
+  flex-direction: row-reverse;
 }
-.team {
-  color: var(--secoundary);
-  /* padding: 5%; */
-  /* margin-left: 30%; */
+#drinks{
+ width: 70vw;
 }
-
-/*team data*/
-.team1,
-.team2,
-.team3 {
-  padding: 2% 5% 2% 5%;
-  /* margin-left: 30%; */
+.team{
+  font-size: 500%;
 }
-
-/*Readm more*/
-.btn {
-  color: var(--primary);
-  background-color: var(--secoundary);
-  border: none;
-  padding: 5%;
-  margin: 5%;
-  /* margin-left: 30%; */
-}
-.BlockC1 {
+.content{
   display: flex;
-  flex-direction: column;
-justify-content: flex-end;
-  /* margin-left: 30%; */
 }
-
-/*coool drinks*/
-#drinks {
-  width: 100%;
-  height: 50%;
-  padding: 5%;
+.team1{
+  font-size: 300%;
 }
-/*BlockD*/
+ .team2, .team3,.btn{
+  margin-top: 5%;
+  font-size: 300%;
+}
+.btn{
+  background-color: var(--secoundary);
+  color: var(--primary);
+}
+.one, .second, .third, .contact{
+  font-size: 500%;
+}
 #BlockD{
   display: flex;
 
 }
-
-/*Gallery one*/
-.one {
-  color: var(--secoundary);
-  padding: 5%;
-}
-/*gallery one images*/
-.one1 {
-  width: 100%;
+.one1{
+  width: 50%;
   height: 100%;
 }
-/* 2/2  */
-.phase1 {
-  display: flex;
- 
-  gap: 2%;
-  padding: 5%;
+.one12{
+  width: 70%;
+  height: 100%;
 }
-/* 2/2  */
-.phase2 {
+.phase1,.phase2, .phase3{
   display: flex;
- 
-  gap: 2%;
-  padding: 5%;
+  gap: 2%
 }
-/* 1/1 */
-.phase3 {
-  display: flex;
- 
-  padding: 5%;
+.phase2{
+  margin-left: 2%;
 }
-
-/*BlockE*/
+.phase3{
+margin-left: 2%;
+}
+.phase3 .one1{
+  width: 80%
+}
 #BlockE{
   display: flex;
 }
-
-/*Second gallery*/
-
-.second {
-  color: var(--secoundary);
-  padding: 5%;
+.phase4,.phase5{
+  display: flex;
+  margin-left: 2%;
 }
-/* Second gallery images*/
+.phase4 .second2{
+
+ margin-left: 2%;
+}
+.second2{
+width: 50%;
+}
+.phase5 .second2{
+width: 80%;
+  margin-left: 5%;
+}
 #BlockF{
   display: flex;
-  
 }
-.second2 {
-  width: 140%;
-  height: 140%;
-}
-
-/* 2/2  */
-.phase4 {
+.phase6, .phase7{
   display: flex;
- 
   gap: 2%;
-  padding: 2%;
+  margin-left: 2%;
 }
-
-/* 1/1 */
-.phase5 {
-  display: flex;
-    padding: 2%;
+.third3{
+  width: 50%;
 }
-
-/*BlockF*/
-
-/*Third Gallery*/
-#BlockF{
-  display: flex;
-}
-.third {
-  color: var(--secoundary);
- padding: 5%;
-  margin-top: 5%;
-}
-
-/*Third Gallery images*/
-.third3 {
-  width: 105%;
-  height: 105%;
- 
+.phase7 .third3{
+  width: 45%;
  
 }
-
-/*2/2*/
-.phase6 {
-  display: flex;
-gap: 2%;
-  /* padding: 2%;*/
-  margin: 2%;
-}
-
-/*  2/2 */
-.phase7 {
-  display: flex;
- 
-gap: 2%;
- /* padding: 2%;*/
-  margin: 2%;    
-}
-
-/*Contact*/
 #Contact{
   display: flex;
- 
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-.Feed{
+form{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-
-  padding:2% 5% 2% 5%;
-  width: 100%;
-  height: 100%;
 }
-.contact {
-  color: var(--secoundary);
-  padding:2% 5% 2% 5%;
-
+input, textarea, button{
+  font-size: 400%;
 }
-
-/* forms*/
-form {
- 
-  display: flex;
-  flex-direction: column;
-  /* width: 200%;
-  height: 200%; */
-
- 
- 
-}
-
-/*name, email, message*/
-input,
-textarea,
-button {
-  padding: 2% 5% 2% 5%;
-  gap: 2%;
-  margin-bottom: 5%;
-  /* width: 200%;
-  height: 200%; */
-
- 
-}
-
-/*send*/
-.btn1 {
-  background-color: var(--secoundary);
+button{
   color: var(--primary);
-  width: 30%;
- 
-  border: none;
+  background-color: var(--secoundary);
 }
-/*address*/
-.Order {
+
+.order1,.order2{
+  font-size: 200%;
+  margin-left: 2%;
+}
+.order2{
+  margin-top: 2%;
+}
+#copyright{
   display: flex;
-  /* justify-content: flex-end; */
-  flex-direction: column;
+  gap: 2%;
+  margin-top: 2%;
 }
-/*address data*/
-.order1,
-.order2 {
+.copy{
   font-size: 300%;
-
-
+}
 }
 
-/*copyright*/
-
-#copyright {
-  display: flex;
-  flex-direction: column;
-
-  /* justify-content: flex-start; */
-  padding:2% 5% 2% 5%;
-}
-/*copyright content*/
-/* .copy {
  
-} */
-
-#BlockB:target {
-  background-color: bisque;
-}
-#BlockC:target {
-  background-color: chocolate;
-}
-#BlockD:target {
-  background-color: blueviolet;
-}
-#BlockE:target {
-  background-color: cornflowerblue;
-}
-#BlockF:target {
-  background-color: coral;
-}
-#Contact:target {
-  background-color: aqua;
-}
-}
-
-
