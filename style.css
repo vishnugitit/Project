@@ -1,191 +1,277 @@
+@media screen and (min-width: 768px) and (max-width: 2560px) {
+  /*Navbar*/
+  .Cointainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .Header {
+    background-color: var(--secoundary);
+    height: 100vh;
+  }
 
-  @media screen and (min-width: 768px) and (max-width: 1440px )
-{  
+  .Nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+  }
+  /*logo*/
 
-.Cointainer{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
- 
-}
-.Header{
-  background-color: burlywood;
- position: fixed;
- top: 0%;
- /* height: 100vh; */
-  height: 100%; 
- width: 30%;
+  .logo {
+    margin-top: 4vh;
+    width: 5vw;
+    height: 10vh;
+  }
+  /*brandname*/
+
+  .brand {
+    margin-top: 2vh;
+    font-size: 4vh;
+  }
+  /*Menu*/
+  .Icon {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* align-content: space-evenly; */
+  }
+  .Reference {
+    font-size: 4vh;
+    text-decoration: none;
+    color: var(--primary);
+    margin: 4vh 5vh 4vh 5vh;
+    text-align: justify;
+  }
+  /*Aside*/
+  .Aside {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+
+
   
-}
-.Nav{
- background-color: chartreuse;
- margin: 5%;
-}
-.logo{
-margin: 5%;
-width: 30%;
-height: 20%;
-margin-left: 30%;
-}
-.brand{
-  margin: 2%;
-  font-size: 550%;
-  padding-left: 30%;
-}
-.Icon{
 
- display: flex;
- flex-direction: column;
-background-color: cornflowerblue;
-align-items: center;
-}
-.Reference{
-  font-size: 650%;
-  margin:10%;
-  text-align: justify;
-}
+  /* Icecream*/
+  .Ice {
+    width: 75vw;
+    height: 100vh;
+  }
+  #BlockB{
+    padding-top: 5%;
+  }
 
-.Aside{
-  /* background-color: brown;  */
-  margin-left: 40%;
-  width: 100%;
-  /* height: 100vh; */
+  /*welcome*/
+  #welcome2 {
+    font-size: 7vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+
+  /*content*/
+  #welcome1 {
+    font-size: 4vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+
+  /*Blockc*/
+  #BlockC {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /*About team*/
+  .team {
+    font-size: 7vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+  /*content*/
+  .team1,
+  .team2,
+  .team3 {
+    font-size: 3.5vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+  /*Drinks*/
+  #drinks {
+    height: 80vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+  /*Readmore*/
+  .btn {
+    color: var(--primary);
+    background-color: var(--secoundary);
+    height: 8vh;
+    font-size: 4vh;
+    margin: 4vh 5vh 4vh 5vh;
+    border: none;
+    padding: 2vh 4vh;
+  }
+  #BlockD{
+    padding-top: 5vh;
+  }
   
- 
-}
-/* #BlockA{
-  height: 100%;
-  width: 100%;
-} */
-/* .Ice{
- height: 100%;
-width: 100%; 
-} */
-/*BlockB*/
-#welcome2{
-  font-size: 500%;
-  display: flex;
-}
-#welcome1{
-  font-size: 350%;
-}
-#BlockC{
-  display: flex;
-  flex-direction: row-reverse;
-}
-#drinks{
- width: 70vw;
-}
-.team{
-  font-size: 500%;
-}
-.content{
-  display: flex;
-}
-.team1{
-  font-size: 300%;
-}
- .team2, .team3,.btn{
-  margin-top: 5%;
-  font-size: 300%;
-}
-.btn{
-  background-color: var(--secoundary);
-  color: var(--primary);
-}
-.one, .second, .third, .contact{
-  font-size: 500%;
-}
-#BlockD{
-  display: flex;
+  /*Gallery one*/
+  .one{
+    font-size: 7vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+/*images parent*/
+  .Galleryone{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 4vh 5vh 4vh 5vh; */
+  }
+  /*images class*/
+  .phase1, .phase2, .phase3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vh;
+  }
+  /*images size*/
+  .one1{
+    height: 23vh;
+    margin-left: 1vh;
+  }
 
-}
-.one1{
-  width: 50%;
-  height: 100%;
-}
-.one12{
-  width: 70%;
-  height: 100%;
-}
-.phase1,.phase2, .phase3{
-  display: flex;
-  gap: 2%
-}
-.phase2{
-  margin-left: 2%;
-}
-.phase3{
-margin-left: 2%;
-}
-.phase3 .one1{
-  width: 80%
-}
-#BlockE{
-  display: flex;
-}
-.phase4,.phase5{
-  display: flex;
-  margin-left: 2%;
-}
-.phase4 .second2{
+  #BlockE{
+    padding-top: 5vh;
+  }
+/*Second Gallery*/
+  .second{
+    font-size: 7vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+/*images parent*/
+  .Gallerytwo{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 4vh 5vh 4vh 5vh; */
+  }
+  /*images class*/
+  .phase4, .phase5{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vh;
+  }
+  /*images size*/
+  .second2{
+    height: 27vh;
+    margin-left: 1vh;
+  }
 
- margin-left: 2%;
-}
-.second2{
-width: 50%;
-}
-.phase5 .second2{
-width: 80%;
-  margin-left: 5%;
-}
 #BlockF{
-  display: flex;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /* padding-bottom: 9vh; */
 }
-.phase6, .phase7{
-  display: flex;
-  gap: 2%;
-  margin-left: 2%;
-}
-.third3{
-  width: 50%;
-}
-.phase7 .third3{
-  width: 45%;
- 
-}
+  /*Third Gallery*/
+  .third{
+    font-size: 7vh;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+/*images parent*/
+  .Thirdgallery{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 4vh 5vh 4vh 5vh; */
+  }
+  /*images class*/
+  .phase6, .phase7{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vh;
+  }
+  /*images size*/
+  .third3{
+    height: 30vh;
+    margin-left: 1vh;
+  }
+
 #Contact{
-  display: flex;
-  justify-content: space-evenly;
+  padding-top: 5%;
+
 }
+  /*footer*/
+  .Footer{
+    display: flex;
+
+  }
+  /*Contact*/
+.contact{
+   font-size: 7vh;
+    margin: 4vh 5vh 4vh 5vh;
+}
+/*form teg*/
 form{
+ 
   display: flex;
   flex-direction: column;
-}
-input, textarea, button{
-  font-size: 400%;
-}
-button{
-  color: var(--primary);
-  background-color: var(--secoundary);
+ 
+  margin: 4vh 5vh 4vh 5vh;
+
 }
 
-.order1,.order2{
-  font-size: 200%;
-  margin-left: 2%;
+/*name, email, message, send*/
+input, textarea, .btn1{
+  height: 12vh;
+  width: 30vw;
+  font-size: 3vh;
+  margin-top: 2vh;
+  padding-left: 2vh;
+
+
 }
+
+/*Content parent*/
+#Order{
+  display: flex;
+  flex-direction: column;
+  margin: 4vh 5vh 4vh 5vh;
+}
+/*content1*/
+.order1{
+  font-size: 4vh;
+  display: flex;
+  margin: 4vh 5vh 4vh 5vh; 
+  
+}
+/*content2*/
 .order2{
-  margin-top: 2%;
+  font-size: 4vh;
+  display: flex;
+margin: 4vh 5vh 4vh 5vh; 
 }
+
+/*Copyright*/
 #copyright{
   display: flex;
-  gap: 2%;
-  margin-top: 2%;
+  margin: 4vh 5vh 4vh 5vh;
 }
+/*Content*/
 .copy{
-  font-size: 300%;
+  font-size: 3vh;
+  margin-left: 2vh;
 }
-} 
+
+
+  
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
