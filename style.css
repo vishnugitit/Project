@@ -250,55 +250,7 @@
   .copy {
     margin: 2%;
   }
-  .one1:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.3);
-
-    transition-duration: 4s all;
-  }
-  .second2:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.3);
-
-    transition-duration: 4s all;
-  }
-
-  .third3:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.3);
-
-    transition-duration: 4s all;
-  }
-  .Ice:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.2);
-
-    transition-duration: 4s all;
-  }
-
-  #drinks:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.2);
-
-    transition-duration: 4s all;
-  }
-  .btn:hover {
-    transform: scale(1.1, 1.2);
-
-    transition-duration: 4s all;
-  }
-
-  input:hover {
-    border: 2px solid black;
-  }
-  textarea:hover {
-    border: 2px solid black;
-  }
-  .btn1:hover {
-    transform: scale(1, 1.1);
-
-    transition-duration: 4s all;
-  }
+ 
 }
 
 /*4k*/
@@ -894,55 +846,6 @@ textarea,
   font-size: 3vh;
   margin-left: 2vh;
 }
-.one1:hover {
-  border: 3px solid black;
-  transform: scale(1.1, 1.3);
-
-  transition-duration: 4s all;
-}
-.second2:hover {
-  border: 3px solid black;
-  transform: scale(1.1, 1.3);
-
-  transition-duration: 4s all;
-}
-
-.third3:hover {
-  border: 3px solid black;
-  transform: scale(1.1, 1.3);
-
-  transition-duration: 4s all;
-}
-.Ice:hover {
-  border: 3px solid black;
-  transform: scale(1.1, 1.2);
-
-  transition-duration: 4s all;
-}
-
-#drinks:hover {
-  border: 3px solid black;
-  transform: scale(1.1, 1.2);
-
-  transition-duration: 4s all;
-}
-.btn:hover {
-  transform: scale(1.1, 1.2);
-
-  transition-duration: 4s all;
-}
-
-input:hover {
-  border: 2px solid black;
-}
-textarea:hover {
-  border: 2px solid black;
-}
-.btn1:hover {
-  transform: scale(1, 1.1);
-
-  transition-duration: 4s all;
-}
 
 
   
@@ -1211,53 +1114,5 @@ textarea:hover {
     margin: 2%;
     font-size: 3.5vh;
   }
-  .one1:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.3);
-
-    transition-duration: 4s all;
-  }
-  .second2:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.3);
-
-    transition-duration: 4s all;
-  }
-
-  .third3:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.3);
-
-    transition-duration: 4s all;
-  }
-  .Ice:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.2);
-
-    transition-duration: 4s all;
-  }
-
-  #drinks:hover {
-    border: 3px solid black;
-    transform: scale(1.1, 1.2);
-
-    transition-duration: 4s all;
-  }
-  .btn:hover {
-    transform: scale(1.1, 1.2);
-
-    transition-duration: 4s all;
-  }
-
-  input:hover {
-    border: 2px solid black;
-  }
-  textarea:hover {
-    border: 2px solid black;
-  }
-  .btn1:hover {
-    transform: scale(1, 1.1);
-
-    transition-duration: 4s all;
-  }
+  
 }
