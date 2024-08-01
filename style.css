@@ -1,4 +1,309 @@
-@media screen and (min-width: 768px) and (max-width: 2560px) {
+
+/*Mobile*/
+
+@media screen and (min-width: 320px) and (max-width: 592px) {
+  /*Navbar*/
+  .Header {
+    position: sticky;
+    top: 0%;
+  }
+
+  .Nav {
+    background-color: var(--secoundary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+    position: sticky;
+    top: 0%;
+    padding: 0%;
+  }
+  /*logo*/
+
+  .logo {
+    padding-top: 5%;
+  }
+  /*brandname*/
+
+  .brand {
+    padding-bottom: 5%;
+    color: var(--primary);
+  }
+
+  /*Menu*/
+  .Icon {
+    /* position: fixed; */
+    /* left: 70%; */
+    position: fixed;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+  }
+
+  /*BlockA*/
+
+  #BlockA {
+    display: flex;
+  }
+  /*icecream*/
+
+  .Ice {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+  }
+  /*BlockB*/
+
+  #BlockB {
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*welcome to neaty design*/
+
+  /* #welcome1{
+
+} */
+
+  /*neaty data*/
+  #welcome2 {
+    margin-bottom: 5%;
+  }
+
+  /*BlockC*/
+  /*About team*/
+  .team {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+
+  /*team data*/
+  .team1,
+  .team2,
+  .team3 {
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*Readm more*/
+  .btn {
+    color: var(--primary);
+    background-color: var(--secoundary);
+    border: none;
+    padding: 5%;
+    margin: 5%;
+  }
+  .BlockC1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*coool drinks*/
+  #drinks {
+    width: 100%;
+    height: 50%;
+    padding: 5%;
+  }
+  /*BlockD*/
+
+  /*Gallery one*/
+  .one {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+  /*gallery one images*/
+  .one1 {
+    width: 50%;
+    height: 50%;
+  }
+  /* 2/2  */
+  .phase1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+  /* 2/2  */
+  .phase2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+  /* 1/1 */
+  .phase3 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+  }
+
+  /*BlockE*/
+
+  /*Second gallery*/
+
+  .second {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+  /* Second gallery images*/
+
+  .second2 {
+    width: 50%;
+    height: 50%;
+  }
+
+  /* 2/2  */
+  .phase4 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /* 1/1 */
+  .phase5 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+  }
+
+  /*BlockF*/
+
+  /*Third Gallery*/
+  .third {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+
+  /*Third Gallery images*/
+  .third3 {
+    width: 50%;
+    height: 50%;
+  }
+
+  /*2/2*/
+  .phase6 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /*  2/2 */
+  .phase7 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /*Contact*/
+  .contact {
+    color: var(--secoundary);
+    padding: 2% 5% 2% 5%;
+  }
+
+  /* forms*/
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*name, email, message*/
+  input,
+  textarea,
+  button {
+    padding: 2% 5% 2% 5%;
+    margin-top: 5%;
+  }
+
+  /*send*/
+  .btn1 {
+    background-color: var(--secoundary);
+    color: var(--primary);
+    width: 30%;
+    padding: 5%;
+    border: none;
+  }
+  /*address*/
+  .Order {
+    display: flex;
+    flex-direction: column;
+  }
+  /*address data*/
+  .order1,
+  .order2 {
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*copyright*/
+
+  #copyright {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+  }
+  /*copyright content*/
+  .copy {
+    margin: 2%;
+  }
+  .one1:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+  .second2:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+
+  .third3:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+  .Ice:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+
+  #drinks:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+  .btn:hover {
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+
+  input:hover {
+    border: 2px solid black;
+  }
+  textarea:hover {
+    border: 2px solid black;
+  }
+  .btn1:hover {
+    transform: scale(1, 1.1);
+
+    transition-duration: 4s all;
+  }
+}
+
+/*4k*/
+
+@media screen and (min-width: 1185px) and (max-width: 2560px) {
   /*Navbar*/
   .Cointainer {
     display: grid;
@@ -27,6 +332,8 @@
   .brand {
     margin-top: 2vh;
     font-size: 4vh;
+    color: var(--primary);
+   
   }
   /*Menu*/
   .Icon {
@@ -36,11 +343,12 @@
     /* align-content: space-evenly; */
   }
   .Reference {
-    font-size: 4vh;
+    font-size: 3vh;
     text-decoration: none;
     color: var(--primary);
     margin: 4vh 5vh 4vh 5vh;
     text-align: justify;
+  
   }
   /*Aside*/
   .Aside {
@@ -48,28 +356,25 @@
     overflow-y: scroll;
   }
 
-
-
-  
-
   /* Icecream*/
   .Ice {
     width: 75vw;
     height: 100vh;
   }
-  #BlockB{
+  #BlockB {
     padding-top: 5%;
   }
 
   /*welcome*/
   #welcome2 {
-    font-size: 7vh;
+    font-size: 6vh;
     margin: 4vh 5vh 4vh 5vh;
+    color: var(--secoundary);
   }
 
   /*content*/
   #welcome1 {
-    font-size: 4vh;
+    font-size: 3.5vh;
     margin: 4vh 5vh 4vh 5vh;
   }
 
@@ -80,8 +385,9 @@
   }
   /*About team*/
   .team {
-    font-size: 7vh;
+    font-size: 6vh;
     margin: 4vh 5vh 4vh 5vh;
+    color: var(--secoundary);
   }
   /*content*/
   .team1,
@@ -100,178 +406,858 @@
     color: var(--primary);
     background-color: var(--secoundary);
     height: 8vh;
-    font-size: 4vh;
+    font-size: 3.5vh;
     margin: 4vh 5vh 4vh 5vh;
     border: none;
     padding: 2vh 4vh;
   }
-  #BlockD{
+  #BlockD {
     padding-top: 5vh;
   }
-  
+
   /*Gallery one*/
-  .one{
-    font-size: 7vh;
+  .one {
+    font-size: 6vh;
     margin: 4vh 5vh 4vh 5vh;
+    color: var(--secoundary)
   }
-/*images parent*/
-  .Galleryone{
+  /*images parent*/
+  .Galleryone {
     display: flex;
     justify-content: space-evenly;
     /* margin: 4vh 5vh 4vh 5vh; */
   }
   /*images class*/
-  .phase1, .phase2, .phase3{
+  .phase1,
+  .phase2,
+  .phase3 {
     display: flex;
     justify-content: space-evenly;
     gap: 1vh;
   }
   /*images size*/
-  .one1{
+  .one1 {
     height: 23vh;
     margin-left: 1vh;
   }
 
-  #BlockE{
+  #BlockE {
     padding-top: 5vh;
   }
-/*Second Gallery*/
-  .second{
-    font-size: 7vh;
+  /*Second Gallery*/
+  .second {
+    font-size: 6vh;
     margin: 4vh 5vh 4vh 5vh;
+    color: var(--secoundary);
   }
-/*images parent*/
-  .Gallerytwo{
+  /*images parent*/
+  .Gallerytwo {
     display: flex;
     justify-content: space-evenly;
     /* margin: 4vh 5vh 4vh 5vh; */
   }
   /*images class*/
-  .phase4, .phase5{
+  .phase4,
+  .phase5 {
     display: flex;
     justify-content: space-evenly;
     gap: 1vh;
   }
   /*images size*/
-  .second2{
+  .second2 {
     height: 27vh;
     margin-left: 1vh;
   }
 
-#BlockF{
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  /* padding-bottom: 9vh; */
-}
-  /*Third Gallery*/
-  .third{
-    font-size: 7vh;
-    margin: 4vh 5vh 4vh 5vh;
+  #BlockF {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    /* padding-bottom: 9vh; */
   }
-/*images parent*/
-  .Thirdgallery{
+  /*Third Gallery*/
+  .third {
+    font-size: 6vh;
+    margin: 4vh 5vh 4vh 5vh;
+    color: var(--secoundary);
+  }
+  /*images parent*/
+  .Thirdgallery {
     display: flex;
     justify-content: space-evenly;
     /* margin: 4vh 5vh 4vh 5vh; */
   }
   /*images class*/
-  .phase6, .phase7{
+  .phase6,
+  .phase7 {
     display: flex;
     justify-content: space-evenly;
     gap: 1vh;
   }
   /*images size*/
-  .third3{
+  .third3 {
     height: 30vh;
     margin-left: 1vh;
   }
 
-#Contact{
-  padding-top: 5%;
-
-}
+  #Contact {
+    padding-top: 5%;
+  }
   /*footer*/
-  .Footer{
+  .Footer {
     display: flex;
-
   }
   /*Contact*/
-.contact{
-   font-size: 7vh;
+  .contact {
+    font-size: 6vh;
     margin: 4vh 5vh 4vh 5vh;
+    color: var(--secoundary);
+  }
+  /*form teg*/
+  form {
+    display: flex;
+    flex-direction: column;
+
+    margin: 4vh 5vh 4vh 5vh;
+  }
+
+  /*name, email, message, send*/
+  input,
+  textarea,
+  .btn1 {
+    height: 12vh;
+    width: 30vw;
+    font-size: 3vh;
+    margin-top: 2vh;
+    padding-left: 2vh;
+  }
+  .btn1{
+    color: var(--primary);
+    background-color: var(--secoundary);
+  }
+
+  /*Content parent*/
+  #Order {
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+  /*content1*/
+  .order1 {
+    font-size: 3.5vh;
+    display: flex;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+  /*content2*/
+  .order2 {
+    font-size: 3.5vh;
+    display: flex;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+
+  /*Copyright*/
+  #copyright {
+    display: flex;
+    margin: 4vh 5vh 4vh 5vh;
+  }
+  /*Content*/
+  .copy {
+    font-size: 3vh;
+    margin-left: 2vh;
+  }
+  .one1:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+  .second2:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+
+  .third3:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+  .Ice:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+
+  #drinks:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+  .btn:hover {
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+
+  input:hover {
+    border: 2px solid black;
+  }
+  textarea:hover {
+    border: 2px solid black;
+  }
+  .btn1:hover {
+    transform: scale(1, 1.1);
+
+    transition-duration: 4s all;
+  }
 }
-/*form teg*/
-form{
- 
+
+/* Laptop*/
+
+@media screen and (min-width: 812px) and (max-width: 1024px){
+ /*Navbar*/
+ .Cointainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.Header {
+  background-color: var(--secoundary);
+  height: 100vh;
+}
+
+.Nav {
   display: flex;
   flex-direction: column;
- 
-  margin: 4vh 5vh 4vh 5vh;
+  align-items: center;
+  align-content: space-evenly;
+}
+/*logo*/
 
+.logo {
+  margin-top: 4vh;
+  width: 5vw;
+  height: 10vh;
+}
+/*brandname*/
+
+.brand {
+  margin-top: 2vh;
+  font-size: 4vh;
+  color: var(--primary);
+ 
+}
+/*Menu*/
+.Icon {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* align-content: space-evenly; */
+}
+.Reference {
+  font-size: 3vh;
+  text-decoration: none;
+  color: var(--primary);
+  margin: 4vh 5vh 4vh 5vh;
+  text-align: justify;
+
+}
+/*Aside*/
+.Aside {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* Icecream*/
+.Ice {
+  width: 75vw;
+  height: 100vh;
+}
+#BlockB {
+  padding-top: 5%;
+}
+
+/*welcome*/
+#welcome2 {
+  font-size: 5vh;
+  margin: 4vh 5vh 4vh 5vh;
+  color: var(--secoundary);
+}
+
+/*content*/
+#welcome1 {
+  font-size: 3vh;
+  margin: 4vh 5vh 4vh 5vh;
+}
+
+/*Blockc*/
+#BlockC {
+  display: flex;
+  flex-direction: row-reverse;
+/* 
+  flex-wrap: wrap; */
+}
+
+/*About team*/
+.team {
+  font-size: 5vh;
+  margin: 4vh 5vh 4vh 5vh;
+  color: var(--secoundary);
+ 
+}
+/*content*/
+.team1,
+.team2,
+.team3 {
+  font-size: 3vh;
+  margin: 4vh 5vh 4vh 5vh;
+}
+.BlockC1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/*Drinks*/
+#drinks {
+  height: 70vh;
+  width: 30vw;
+  margin: 4vh 5vh 4vh 5vh;
+}
+/*Readmore*/
+.btn {
+  color: var(--primary);
+  background-color: var(--secoundary);
+  height: 8vh;
+  font-size: 3.5vh;
+  margin: 4vh 5vh 4vh 5vh;
+  border: none;
+  padding: 2vh 4vh;
+}
+#BlockD {
+  padding-top: 5vh;
+}
+
+/*Gallery one*/
+.one {
+  font-size: 6vh;
+  margin: 4vh 5vh 4vh 5vh;
+  color: var(--secoundary)
+}
+/*images parent*/
+.Galleryone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vh;
+  /* margin: 4vh 5vh 4vh 5vh; */
+}
+/*images class*/
+.phase1,
+.phase2,
+.phase3 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1vh;
+}
+/*images size*/
+.one1 {
+  height: 20vh;
+  margin-left: 1vh;
+}
+
+#BlockE {
+  padding-top: 5vh;
+}
+/*Second Gallery*/
+.second {
+  font-size: 5vh;
+  margin: 4vh 5vh 4vh 5vh;
+  color: var(--secoundary);
+}
+/*images parent*/
+.Gallerytwo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2vh;
+  /* margin: 4vh 5vh 4vh 5vh; */
+}
+/*images class*/
+.phase4,
+.phase5 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1vh;
+}
+/*images size*/
+.second2 {
+  height: 23vh;
+  margin-left: 1vh;
+}
+
+#BlockF {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /* padding-bottom: 9vh; */
+}
+/*Third Gallery*/
+.third {
+  font-size: 5vh;
+  margin: 4vh 5vh 4vh 5vh;
+  color: var(--secoundary);
+}
+/*images parent*/
+.Thirdgallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2vh;
+  /* margin: 4vh 5vh 4vh 5vh; */
+}
+/*images class*/
+.phase6,
+.phase7 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1vh;
+}
+/*images size*/
+.third3 {
+  height: 26vh;
+  margin-left: 1vh;
+}
+
+#Contact {
+  padding-top: 5%;
+}
+/*footer*/
+.Footer {
+  display: flex;
+}
+/*Contact*/
+.contact {
+  font-size: 5vh;
+  margin: 4vh 5vh 4vh 5vh;
+  color: var(--secoundary);
+}
+/*form teg*/
+form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 4vh 5vh 4vh 5vh;
 }
 
 /*name, email, message, send*/
-input, textarea, .btn1{
+input,
+textarea,
+.btn1 {
   height: 12vh;
   width: 30vw;
   font-size: 3vh;
   margin-top: 2vh;
   padding-left: 2vh;
-
-
+}
+.btn1{
+  color: var(--primary);
+  background-color: var(--secoundary);
 }
 
 /*Content parent*/
-#Order{
+#Order {
   display: flex;
   flex-direction: column;
   margin: 4vh 5vh 4vh 5vh;
 }
 /*content1*/
-.order1{
-  font-size: 4vh;
+.order1 {
+  font-size: 3vh;
   display: flex;
-  margin: 4vh 5vh 4vh 5vh; 
-  
+  margin: 4vh 5vh 4vh 5vh;
 }
 /*content2*/
-.order2{
-  font-size: 4vh;
+.order2 {
+  font-size: 3vh;
   display: flex;
-margin: 4vh 5vh 4vh 5vh; 
+  margin: 4vh 5vh 4vh 5vh;
 }
 
 /*Copyright*/
-#copyright{
+#copyright {
   display: flex;
   margin: 4vh 5vh 4vh 5vh;
 }
 /*Content*/
-.copy{
+.copy {
   font-size: 3vh;
   margin-left: 2vh;
+}
+.one1:hover {
+  border: 3px solid black;
+  transform: scale(1.1, 1.3);
+
+  transition-duration: 4s all;
+}
+.second2:hover {
+  border: 3px solid black;
+  transform: scale(1.1, 1.3);
+
+  transition-duration: 4s all;
+}
+
+.third3:hover {
+  border: 3px solid black;
+  transform: scale(1.1, 1.3);
+
+  transition-duration: 4s all;
+}
+.Ice:hover {
+  border: 3px solid black;
+  transform: scale(1.1, 1.2);
+
+  transition-duration: 4s all;
+}
+
+#drinks:hover {
+  border: 3px solid black;
+  transform: scale(1.1, 1.2);
+
+  transition-duration: 4s all;
+}
+.btn:hover {
+  transform: scale(1.1, 1.2);
+
+  transition-duration: 4s all;
+}
+
+input:hover {
+  border: 2px solid black;
+}
+textarea:hover {
+  border: 2px solid black;
+}
+.btn1:hover {
+  transform: scale(1, 1.1);
+
+  transition-duration: 4s all;
 }
 
 
   
+}
 
+/*Tablet*/
 
+@media screen and (min-width: 768px) and (max-width: 790px) {
 
+  
+  /*Navbar*/
+  .Header {
+    position: sticky;
+    top: 0%;
+  }
 
+  .Nav {
+    background-color: var(--secoundary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+    position: sticky;
+    top: 0%;
+    padding: 0%;
+  }
+  /*logo*/
 
+  .logo {
+    padding-top: 5%;
+  }
+  /*brandname*/
 
+  .brand {
+    padding-bottom: 5%;
+    color: var(--primary);
+  }
 
+  /*Menu*/
+  .Icon {
+    /* position: fixed; */
+    /* left: 70%; */
+    position: fixed;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+  }
 
+  /*BlockA*/
 
+  #BlockA {
+    display: flex;
+  }
+  /*icecream*/
 
+  .Ice {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+  }
+  /*BlockB*/
 
+  #BlockB {
+    padding: 2% 5% 2% 5%;
+  }
 
+  /*welcome to neaty design*/
+/*welcome1*/
+   #welcome1{
+    font-size: 3.5vh;
+} 
 
+  /*neaty data*/
+  #welcome2 {
+    margin-bottom: 5%;
+    color: var(--secoundary);
+    font-size: 5vh;
+  }
 
+  /*BlockC*/
+  /*About team*/
+  .team {
+    color: var(--secoundary);
+    padding: 5%;
+    font-size: 5vh;
+  }
 
+  /*team data*/
+  .team1,
+  .team2,
+  .team3 {
+    padding: 2% 5% 2% 5%;
+    font-size: 3.5vh;
+  }
 
+  /*Readm more*/
+  .btn {
+    color: var(--primary);
+    background-color: var(--secoundary);
+    border: none;
+    padding: 5%;
+    margin: 5%;
+    font-size: 3.5vh;
+  }
+  .BlockC1 {
+    display: flex;
+    flex-direction: column;
+  }
 
+  /*coool drinks*/
+  #drinks {
+    width: 100%;
+    height: 50%;
+    padding: 5%;
+  }
+  /*BlockD*/
 
+  /*Gallery one*/
+  .one {
+  
+    color: var(--secoundary);
+    padding: 5%;
+  }
+  /*gallery one images*/
+  .one1 {
+    width: 50%;
+    height: 50%;
+  }
+  /* 2/2  */
+  .phase1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+  /* 2/2  */
+  .phase2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+  /* 1/1 */
+  .phase3 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+  }
 
+  /*BlockE*/
 
+  /*Second gallery*/
+
+  .second {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+  /* Second gallery images*/
+
+  .second2 {
+    width: 50%;
+    height: 50%;
+  }
+
+  /* 2/2  */
+  .phase4 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /* 1/1 */
+  .phase5 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+  }
+
+  /*BlockF*/
+
+  /*Third Gallery*/
+  .third {
+    color: var(--secoundary);
+    padding: 5%;
+  }
+
+  /*Third Gallery images*/
+  .third3 {
+    width: 50%;
+    height: 50%;
+  }
+
+  /*2/2*/
+  .phase6 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /*  2/2 */
+  .phase7 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  /*Contact*/
+  .contact {
+    color: var(--secoundary);
+    padding: 2% 5% 2% 5%;
+  }
+
+  /* forms*/
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+  }
+
+  /*name, email, message*/
+  input,
+  textarea,
+  button {
+    padding: 2% 5% 2% 5%;
+    margin-top: 5%;
+    font-size: 3.5vh;
+  }
+
+  /*send*/
+  .btn1 {
+    background-color: var(--secoundary);
+    color: var(--primary);
+    width: 30%;
+    padding: 5%;
+    border: none;
+    font-size: 3.5vh;
+  }
+  /*address*/
+  .Order {
+    display: flex;
+    flex-direction: column;
+  }
+  /*address data*/
+  .order1,
+  .order2 {
+    padding: 2% 5% 2% 5%;
+    font-size: 3.5vh;
+  }
+
+  /*copyright*/
+
+  #copyright {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+  }
+  /*copyright content*/
+  .copy {
+    margin: 2%;
+    font-size: 3.5vh;
+  }
+  .one1:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+  .second2:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+
+  .third3:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.3);
+
+    transition-duration: 4s all;
+  }
+  .Ice:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+
+  #drinks:hover {
+    border: 3px solid black;
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+  .btn:hover {
+    transform: scale(1.1, 1.2);
+
+    transition-duration: 4s all;
+  }
+
+  input:hover {
+    border: 2px solid black;
+  }
+  textarea:hover {
+    border: 2px solid black;
+  }
+  .btn1:hover {
+    transform: scale(1, 1.1);
+
+    transition-duration: 4s all;
+  }
 }
